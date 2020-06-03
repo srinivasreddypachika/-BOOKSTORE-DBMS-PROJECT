@@ -14,11 +14,17 @@ This data base management system is designed to overcome data redundancy issues,
 Business Rules:
 
 •	Every customer must have at least one order associated with the bookstore.
+
 •	Every order must have at least one item.
+
 •	Every item must be part of at least one order.
+
 •	Every item is stored in one and only one shelf and every shelf contains only one particular item.
+
 •	Shelf can have zero or more items.
-•	Every boeok is printed by one and only one publisher and every publisher must publish at least one book.
+
+•	Every book is printed by one and only one publisher and every publisher must publish at least one book.
+
 •	Ever book is authored by one and only one author and every author must at least write one book.
 
 
